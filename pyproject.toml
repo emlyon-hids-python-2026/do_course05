@@ -1,0 +1,17 @@
+[project]
+name = "do-course05"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Cao Tri DO", email = "do@em-lyon.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+do-course05 = "do_course05:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
